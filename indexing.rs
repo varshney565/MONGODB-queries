@@ -1,0 +1,5 @@
+db.<collection-name>.createIndex({})
+db.<collection-name>.createIndex({key1 : "text",key2 : "text"})
+db.<collection-name>.find({$text : {$search : "value"}})
+db.<collection-name>.getIndexes()
+db.<collection-name>.dropIndex()
